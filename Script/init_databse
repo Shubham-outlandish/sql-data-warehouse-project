@@ -1,1 +1,21 @@
+/*
+--------------------------------
+Create db & Schemas
+--------------------------------
+Script Purpose :
 
+
+
+--------------------------------
+Warning :
+
+
+--------------------------------
+*/
+
+DROP DATABASE IF EXISTS datawarehouse;
+create database dataWarehouse;
+use datawarehouse;
+create schema bronze;
+create schema silver;
+create schema gold;
